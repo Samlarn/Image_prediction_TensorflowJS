@@ -1,0 +1,79 @@
+body {
+  margin: 10px;
+  background: #e3e7ef;
+}
+.input-div {
+  padding: 5px;
+  font-family: monospace;
+}
+a {
+  color: blue;
+}
+
+hr {
+    background-color: black;
+    width: 700px;
+}
+
+p {
+  width: 500px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h4 {
+    background-color: #ffa642;
+    font-style: italic;
+    width: 655px;
+    border: 1px solid black;
+    padding-left: 40px;
+}
+
+#status {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+#by_LL {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+#pix_LL {
+    padding-left: 5px;
+}
+
+.pred-container {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 655px;
+  background-color: #c1d6ff;
+}
+
+.pred-container > div {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+.row {
+  display: table-row;
+  font-weight: bold;
+}
+.cell {
+  display: table-cell;
+  padding-right: 20px;
+}
+.image-container {
+    border-right: 1px solid black;
+}
+.probs-container {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.totTime-container {
+    color: blue;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 155px 0px 0px 10px   /* top right bottom left */
+}

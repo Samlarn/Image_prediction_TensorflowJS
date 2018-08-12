@@ -1,0 +1,28 @@
+<!doctype html>
+
+<head>
+    <title>tfjs</title>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-teal.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h4><strong>TensorFlow.js Demo </strong></h4>
+    <p id="by_LL">By Lovely Locks <image id="pix_LL" src="images/pixel_lovely_locks.png" /></p>
+    <hr>
+    <p>Using a retrained MobileNet Keras model, that is converted to TensorFlow.js format</p>
+
+
+     <div id="file-container" style="display: none">
+        Upload an image: <input type="file" id="files" name="files[]" multiple />
+     </div>
+
+     <div id="status"></div>
+
+    <div id="predictions"></div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.2"> </script>
+<script src="class_names.js"></script>
+<script src="prediction.js"></script>
